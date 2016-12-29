@@ -1,0 +1,788 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       : Big Business
+Description: A two-column, fixed-width design with a bright color scheme.
+Version    : 1.0
+Released   : 20120210
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+a {
+	text-decoration: none ;
+	color: #0F8C8C;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-size: 9.5pt;
+	color: #5C5B5B;
+	line-height: 1.75em;
+	background: #E0DCDC url(images/img01.gif) repeat-x top left;
+}
+
+body {
+	font-family: Georgia, serif;
+}
+
+input,select {
+	font-family: Georgia;
+	font-weight: normal ;
+	letter-spacing: -1px;
+	color: #2C2B2B;
+	font-size: 0.9em;
+	margin-left: 6px;
+	border: 1px solid #209D9D;
+	
+}
+
+
+
+br.small {
+	
+	margin: 10 10 10 10;
+	
+}
+strong {
+	color: #2C2B2B;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h2,h3,h4 {
+	color: #2C2B2B;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.75em;
+	color: 	#166E6E;
+}
+
+h4 {
+	font-size: 1.5em;
+	color:  	#166E6E;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+img.pic {
+	padding: 5px;
+	border: solid 1px #D4D4D4;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+.h4gen {
+	
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin-bottom: 1em;
+	font-size: 1.5em;
+	color: 	#black;
+}
+
+
+.box {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.date {
+	background: #6E6E6E;
+	padding: 5px 6px 5px 6px;
+	margin: 0 6px 0 0;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	border-radius: 2px;
+}
+
+#content {
+	width: 665px;
+	float: left;
+	padding: 0;
+	margin-left: 0;
+}
+
+#content-box1 {
+	width: 130px;
+	float: left;
+	margin-top: 4em;
+}
+
+#content-box2 {
+	margin: 0 0 0 155px;  /* left margin only */
+	width: 510px;
+}
+
+
+
+#footer a {
+	color: #8C8B8B;
+}
+
+#header {
+	height: 30px;
+	position: relative;
+	background: #6E6E6E; /* gray shade */
+	padding: 45px;
+	color: #FFFFFF;
+	width: 888px;
+	border: solid 1px #7E7E7E;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow: hidden;
+}
+
+#logo {
+	line-height: 100px;
+	height: 160px;
+	padding: 5px 0 0 0;
+	position: absolute;
+	top: 0;
+	left: 45px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: 0 1px 1px #3E3E3E;
+}
+
+#logo h1 {
+	font-size: 3em;
+}
+
+#slogan {
+	line-height: 125px;
+	height: 160px;
+	padding: 5px 0 0 0;
+	position: absolute;
+	right: 45px;
+	top: 0;
+		font-size: 1.35em;
+}
+
+#slogan h2 {
+	color: #BEBEBE;
+	font-size: 1.25em;
+	text-shadow: 0 1px 1px #3E3E3E;
+	
+}
+
+#slogan2 {
+	line-height: 190px;
+	height: 60px;
+	padding: 8px 0 0 0;
+	position: absolute;
+	right: 45px;
+	top: 0;
+		font-size: 1.35em;
+}
+
+#slogan2 h2 {
+	color: #BEBEBE;
+	font-size: 1.25em;
+	text-shadow: 0 1px 1px #3E3E3E;
+}
+
+
+#menu {
+	padding: 0 45px 0 45px;
+	position: relative;
+	background: #209D9D url(../images/img02.gif) repeat-x top left; ;
+	margin: 0 0 0 0;
+	height: 40px;
+	line-height: 30px;
+	width: 890px;
+	border-top: solid 1px #5AD7D7;
+	text-shadow: 0 1px 1px #007D7D;
+	font-size: 11.5pt;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.25em;
+	letter-spacing: -1px;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0 20px 0 20px;
+	display: inline;
+}
+
+#menu ul li.first {
+	padding-left: 0;
+}
+
+#page {
+	padding: 35px 35px 10px 20px;
+	position: relative;
+	width: 910px;
+	margin: 0;
+}
+
+#page .section-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+#page .section-list li {
+	clear: both;
+	padding: 30px 0 30px 0;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	border-bottom: solid 1px #D4D4D4;
+	padding: 15px 0 15px 0;
+}
+
+#page ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom {
+	position: relative;
+	margin: 0;
+	background: #6E6E6E ;
+	border: solid 1px #7E7E7E;
+	width: 888px;
+	padding: 45px 45px 0 45px;
+	color: #DCDCDC;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#page-bottom a {
+	color: #F5F5F5;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #FFFFFF;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+#page-bottom ul li {
+	border-top: solid 1px #8F8F8F;
+	padding: 5px 0 5px 0;
+}
+
+#page-bottom ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom-content {
+	width: 665px;
+	float: left;
+}
+
+#page-bottom-sidebar {
+	width: 200px;
+	margin: 0 0 0 690px;
+}
+
+
+
+.inputsubmit {
+	margin-left: 1em;
+	color: #FFFFFF;
+	padding: 6px;
+	background: #2FACAC;
+	border: 1px solid black;
+	font-size: medium;;
+	font : bold;
+	margin-top: -10px;
+}
+
+
+
+
+.inputtext {
+	border: solid 1px #8F8F8F;
+	padding: 6px;
+	margin-left: 1em;
+	margin-bottom: 10px;
+	font-size: 11.9pt;
+	color: #5C5B5B;
+	font : bold;
+		border: 1px solid #209D9D;
+}
+
+.inputtextsmall {
+	padding: 6px;
+	margin-left: 06px;
+	margin-bottom: 05px;
+	font-size: 9pt;
+	color: #5C5B5B;
+	font : bold;
+		border: 1px solid #209D9D;
+}
+
+
+#search input.form-submit {
+	margin-left: 1em;
+	color: #FFFFFF;
+	padding: 10px;
+	background: #2FACAC;
+	border: 0;
+	
+}
+
+#search input.form-text {
+	border: solid 1px #8F8F8F;
+	padding: 10px;
+}
+
+#sidebar {
+	width: 250px;
+	padding: 0;
+	margin: 0 0 0 705px;
+	
+}
+
+#sidebarright {
+	width : 200px;
+	padding: 0;
+	margin-left: 0;
+	
+}
+#splash {
+	margin: 0 0 0 0;
+	height: 250px;
+	position: relative;
+	padding: 45px 45px 10px 45px;
+	width: 890px;
+}
+
+
+#splash .pic {
+	padding: 9px;
+}
+
+#wrapper {
+	position: relative;
+	width: 980px;
+	margin: 45px auto 0 auto;
+	background: #FFFFFF;
+}
+
+
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+#maincontainer{
+width: 840px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+}
+
+#topsection{
+background:#FFFFFF ;
+height: 90px; /*Height of top section #FFF0FF*/
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin-left: 200px; /*Set left margin to LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width: 200px; /*Width of left column*/
+margin-left: -840px; /*Set left margin to -(MainContainerWidth)  #C8FC98*/
+background:#FFF0FF ;/*whitish*/
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: #209D9D; /* #E9FFE9; /*black */ 
+color: #E9FFE9;/*#FFF*/
+text-align: center;
+padding: 4px 0;
+margin: 0px 0 50px 0;
+border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#footer a{
+color: #AD5CAD;  /*#FFFF80 blueish*/
+}
+
+
+
+.innertube{
+ /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+
+
+
+div.bottombar{ /* bar that runs across the bottom of the menu */
+height: 10px;
+background: 	#166E6E; /*#A319A3; #1a1109; purple*/
+}
+
+ul.semiopaquemenu{ /* main menu UL */
+font: bold 14px Georgia ;
+width: 100%;
+background: #209D9D; /*#b1e958; pink*/
+padding: 11px 0 8px 0; /* padding of the 4 sides of the menu */
+margin: 0;
+text-align: left; /* set value to "left", "center", or "right" to align menu accordingly */
+}
+
+ul.semiopaquemenu li{
+display: inline;
+}
+
+ul.semiopaquemenu li a{
+color:#E9FFE9;/*black greenish*/
+padding: 6px 8px 6px 8px; /* padding of the 4 sides of each menu link */
+margin-right: 15px; /* spacing between each menu link */
+text-decoration: none;
+}
+
+ul.semiopaquemenu li a:hover, ul.semiopaquemenu li a.selected{
+color:#C26685*; /*black; news color pinkish*/
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjgyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* IE9+ SVG equivalent  of linear gradients */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.16) 100%); /* fade from white (0.82 opacty) to 0.16 opacity */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.82)), color-stop(100%,rgba(255,255,255,0.16)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ffffff', endColorstr='#29ffffff',GradientType=0 );
+-moz-box-shadow: 0 0 5px #595959; /* CSS3 box shadows */
+-webkit-box-shadow: 0 0 5px #595959;
+box-shadow: 0 0 5px #595959;
+padding-top: 12px; /* large padding to get menu item to protrude upwards */
+padding-bottom: 20px; /* large padding to get menu item to protrude downwards */
+}
+
+
+
+ul.svertical{
+width: 130px; /* width of menu */
+overflow: auto;
+background:white; /* black ; background of menu  SKIN COLOR ,white*/
+margin: 0;
+padding: 0;
+padding-top: 2px; /* top padding */
+list-style-type: none;
+}
+
+ul.svertical li{
+text-align: right; /* right align menu links */
+}
+
+ul.svertical li a{
+position: relative;
+display: inline-block;
+text-indent: 5px;
+overflow: hidden;
+background: #209D9D; /* initial background color of links */
+font: bold 16px Germand;
+text-decoration: none;
+padding: 5px;
+margin-bottom: 7px; /* spacing between links */
+color: white;
+-moz-box-shadow: inset -7px 0 5px rgba(114,114,114, 0.8); /* inner right shadow added to each link */
+-webkit-box-shadow: inset -7px 0 5px rgba(114,114,114, 0.8);
+box-shadow: inset -7px 0 5px rgba(114,114,114, 0.8);
+-moz-transition: all 0.2s ease-in-out; /* CSS3 transition of hover properties */
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+ul.svertical li a:hover{
+padding-right: 30px; /* add right padding to expand link horizontally to the left */
+color: white;
+background: #209D9D;
+-moz-box-shadow: inset -3px 0 2px rgba(114,114,114, 0.8); /* contract inner right shadow */
+-webkit-box-shadow: inset -3px 0 5px rgba(114,114,114, 0.8);
+box-shadow: inset -3px 0 5px rgba(114,114,114, 0.8);
+font : bold;
+}
+
+ul.svertical li a:before{ /* CSS generated content: slanted right edge */
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+border-style: double; 
+border-width: 70px 0 0 20px; /* Play around with 1st and 4th value to change slant degree */
+border-color: transparent transparent transparent #135E5E; /* change black to match the background color of the menu UL */
+
+}
+
+
+//image
+.hovergallery img{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.7; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+
+.hovergallery img:hover{
+-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.1); /*Mozilla scale version*/
+-o-transform:scale(1.1); /*Opera scale version*/
+box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+opacity: 1;
+}
+
+//image with discription
+
+.imagepluscontainer{ /* main image container */
+position: relative;
+z-index: 1;
+}
+
+.imagepluscontainer img{ /* CSS for image within container */
+position: relative;
+z-index: 2;
+-moz-transition: all 0.5s ease; /* Enable CSS3 transition on all props */
+-webkit-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.imagepluscontainer:hover img{ /* CSS for image when mouse hovers over main container */
+-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+-moz-transform: scale(1.05, 1.05);
+-webkit-transform: scale(1.05, 1.05);
+-ms-transform: scale(1.05, 1.05);
+-o-transform: scale(1.05, 1.05);
+transform: scale(1.05, 1.05);
+}
+
+.imagepluscontainer div.desc{ /* CSS for desc div of each image. */
+position: absolute;
+width: 90%;
+z-index: 1; /* Set z-index to that less than image's, so it's hidden beneath it */
+bottom: 0; /* Default position of desc div is bottom of container, setting it up to slide down */
+left: 5px;
+padding: 8px;
+background: rgba(0, 0, 0, 0.8); /* black bg with 80% opacity */
+color: white;
+-moz-border-radius: 0 0 8px 8px; /* CSS3 rounded borders */
+-webkit-border-radius: 0 0 8px 8px;
+border-radius: 0 0 8px 8px;
+opacity: 0; /* Set initial opacity to 0 */
+-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8); /* CSS3 shadows */
+-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+-moz-transition: all 0.5s ease 0.5s; /* Enable CSS3 transition on desc div. Final 0.5s value is the delay before animation starts */
+-webkit-transition: all 0.5s ease 0.5s;
+-o-transition: all 0.5s ease 0.5s;
+-ms-transition: all 0.5s ease 0.5s;
+transition: all 0.5s ease 0.5s;
+}
+
+.imagepluscontainer div.desc a{
+color: white;
+}
+
+.imagepluscontainer:hover div.desc{ /* CSS for desc div when mouse hovers over main container */
+-moz-transform: translate(0, 100%);
+-webkit-transform: translate(0, 100%);
+-ms-transform: translate(0, 100%);
+-o-transform: translate(0, 100%);
+transform: translate(0, 100%);
+opacity:1; /* Reveal desc DIV fully */
+}
+
+/*### Below CSS when applied to desc DIV slides the desc div from the right edge of the image ###*/
+
+.imagepluscontainer div.rightslide{
+width: 150px; /* reset from default */
+top:15px;
+right:0;
+left:auto;  /* reset from default */
+bottom:auto;  /* reset from default */
+padding-left:15px;
+-moz-border-radius: 0 8px 8px 0;
+-webkit-border-radius: 0 8px 8px 0;
+border-radius: 0 8px 8px 0;
+}
+
+.imagepluscontainer:hover div.rightslide{
+-moz-transform: translate(100%, 0);
+-webkit-transform: translate(100%, 0);
+-ms-transform: translate(100%, 0);
+-o-transform: translate(100%, 0);
+transform: translate(100%, 0);
+}
+
+/*### Below CSS when applied to desc DIV slides the desc div from the left edge of the image ###*/
+
+.imagepluscontainer div.leftslide{
+width: 150px;  /* reset from default */
+top:15px;
+left:0;
+bottom:auto;  /* reset from default */
+padding-left:15px;
+-moz-border-radius: 8px 0 0 8px;
+-webkit-border-radius: 8px 0 0 8px;
+border-radius: 8px 0 0 8px;
+}
+
+.imagepluscontainer:hover div.leftslide{
+-moz-transform: translate(-100%, 0);
+-webkit-transform: translate(-100%, 0);
+-ms-transform: translate(-100%, 0);
+-o-transform: translate(-100%, 0);
+transform:translate(-100%, 0);
+}
+
+/*### Below CSS when applied to desc DIV slides the desc div from the top edge of the image ###*/
+
+.imagepluscontainer div.upslide{
+top:0;
+bottom:auto;  /* reset from default */
+padding-bottom:10px;
+-moz-border-radius: 8px 8px 0 0;
+-webkit-border-radius: 8px 8px 0 0;
+border-radius: 8px 8px 0 0;
+}
+
+.imagepluscontainer:hover div.upslide{
+-moz-transform: translate(0, -100%);
+-webkit-transform: translate(0, -100%);
+-ms-transform: translate(0, -100%);
+-o-transform: translate(0, -100%);
+transform:translate(0, -100%);
+}
+
+
+
+
+/* Validation */
+
+
+
+.info {
+	text-align: left;
+	padding: 5px;
+	font-size: 12px;
+	position: absolute;
+	display: none;
+	/*
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: -1px 1px 2px #a9a9a9;
+	-moz-box-shadow: -1px 1px 2px #a9a9a9;
+	 box-shadow: -1px 1px 2px #a9a9a9; */ 
+}
+
+.error {
+	/* background:   #f60000; 
+	border: 3px solid #d50000; */
+	color: red; 
+}
+
+.correct {
+	/* background: #56d800;
+	border: 3px solid #008000; */
+	color: green ;
+	font-size: 22px;
+	font :bold;
+}
+
+.wrong {
+	font-weight: bold;
+	color:  #red;     //#e90000;
+}
+
+.normal {
+	font-weight: normal;
+	color: #222;
+}

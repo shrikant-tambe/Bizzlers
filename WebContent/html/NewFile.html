@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function ShowPopUp(){
+var popUpObj = document.getElementById('popUpLayer');
+popUpObj.style.display="block";
+}
+
+function ClosePopUp(){
+var popUpObj = document.getElementById('popUpLayer');
+popUpObj.style.display="none";
+}
+
+</script>
+</head>
+
+<body bgcolor="#CCCCCC">
+
+<div id="popUpLayer" style="width:457px; height:310px;position:absolute; left:250px; top:210px; z-index:1000; display:none; background:#ffffff; border : '5px solid #000000';">
+<div style="text-align:right; "><b><a href="#" onClick="ClosePopUp();" style="font-family:verdana;font-size:14px;color:#000000; text-decoration:none;"> CLOSE X </a></b></div>
+<div> this is demo</div>
+
+</div>
+
+ <script type="text/javascript">
+//specify the flickering Number instead of "30" below.
+ ShowPopUp();
+ </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<head>
+<script type='text/javascript' src=validate.js></script>
+<script type='text/javascript' src=validateproduct.js></script>
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/Bizzlers/css/search.css" />
+<!-- done with session value -->
+<title> Product Details </title>
+</head>
+<body background="images/businessbg.jpg">
+
+	<form onsubmit='return formValidator()' method="POST" action="http://localhost:8080/Bizzlers/addproduct">
+		<table>
+			<tr>
+				<td align="right">Product Name:</td>
+				<td><input type='text' name='pname' /></td>
+			</tr>
+			<tr>
+				<td align="right"> Description: </td>
+				<td> <textarea rows="6" cols="36" name='des'></textarea></td>
+			</tr>
+
+
+</table>
+			<input type=submit value='Add' />
+			<input type=reset value='Clear' />
+</form>
+
+<b><a href="catelog.htm" >Back</a></b>
+			
+</body>

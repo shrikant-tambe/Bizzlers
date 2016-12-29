@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       : Big Business
+Description: A two-column, fixed-width design with a bright color scheme.
+Version    : 1.0
+Released   : 20120210
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title> Bizzlers.com </title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/Bizzlers/css/main.css" />
+
+<script type="text/javascript">
+// /*** Temporary text filler function. Remove when deploying template. ***/
+//var gibberish=["This is just some filler text", "Welcome to Dynamic Drive CSS Library", "Demo content nothing to read here"]
+//function filltext(words){
+//for (var i=0; i<words; i++)
+//document.write(gibberish[Math.floor(Math.random()*3)]+" ")
+//}
+
+//select box
+function go()
+{
+location=document.forms[0].gowhere.value;
+}
+
+
+//displaying the text from box
+function showMsg()
+{
+  var userInput = document.getElementById('userInput').value;
+  document.getElementById('userMsg').innerHTML = userInput;
+}
+
+
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+
+
+</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Bizzlers</a></h1>
+		</div>
+		<div id="slogan">
+			<h2> See your business growing with you  </h2>
+		</div>
+		<div id="slogan2">
+			<h2> </h2>
+		</div>
+	</div>
+	<div class="innertube">
+
+<ul class="semiopaquemenu">
+<li><a href="#" > &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+<li><a href="#" class="selected">Home</a></li>
+<li><a href="#" >News</a></li>
+
+<li><a href="#">Feedback</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+
+
+<div class="bottombar"></div>
+
+</div>
+	
+	<div id="page">
+		<div id="content">
+		 
+			
+			
+				  <div class="box" id="content-box1">
+				  	  
+				<ul class="svertical">
+						<li><a href="#"> Products </a></li>
+						<li><a href="#"> Services </a></li>
+						<li><a href="#"> Businesses </a></li>
+				</ul>
+				</div>
+				
+				
+			<div class="box" id="content-box2">
+			
+				<form method="get" action="http://localhost:8080/Bizzlers/Search">
+			<div class="form-submit" >
+			
+			 <input class=inputtext type="text" name="query" size="30"/>
+			<input class=inputsubmit type="submit" value="Search" />
+			</div>
+			</form>
+			
+			
+				<h3>Main Page</h3>
+				<p>
+					this is page this is page this is page this is page this is page this is page this is page this is page this is page this is page this is page this is pagethis is page this is page this is page this is page this is page this is page this is page this is page this is page this is page
+				</p>
+				<ul class="list">
+					<li class="first"><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li class="last"><a href="#">Link 3</a></li>
+				</ul>
+			</div>
+			<br class="clearfix" />
+		</div>   
+		
+	
+		<div id="sidebar">
+			<div class="box">
+				<h3> Explore your business  </h3>
+				<div id="search">
+				<form method="post" action="http://localhost:8080/Bizzlers/Login">
+					<table>
+
+						<tr><td>Username</td><td> <input class="inputtext" type="text" name="username" size="18"/></td></tr>
+						<tr><td> </td><td> </td></tr>
+						<tr><td>Password</td><td> <input class="inputtext"  type="password" name="password" size="18"/></td></tr>
+						<tr><td> </td><td> </td></tr>
+
+						<tr><td></td><td align="right"> <input class="inputsubmit" type="submit" value=" Submit "/></td></tr>
+					</table>
+				</form>
+				<br/>
+				 &nbsp;  &nbsp; <a href="#"> Forgot Password ? </a>  &nbsp; &nbsp; &nbsp; <a href="registerCust.html"> Register Here </a>
+				 <br/>  <br/>
+				</div>
+
+			</div>
+			<div class="box">
+				<h3> New Businesses </h3>
+				<div class="date-list">
+					<ul class="list date-list">
+						<li class="first"><span class="date">2/08</span> <a href="#"> date 1 </a></li>
+						<li><span class="date">2/05/12</span> <a href="#">date 2</a></li>
+						<li class="last"><span class="date">1/31</span> <a href="#">date 3</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br class="clearfix" />
+	</div>
+	
+	<div id="page-bottom">
+		<div id="page-bottom-content">
+			<h3>Bottom Content</h3>
+			<p>
+				bla bla bla
+			</p>
+		</div>
+		<div id="page-bottom-sidebar">
+			<h3>Connect with us</h3>
+			<img src="" alt=fb></img> <img src="" alt=twitter></img> 
+			<ul class="list">
+				<li class="first"><a href="#"> &nbsp;</a></li>
+				<li><a href="#">Contact us</a></li>
+				<li class="last"><a href="#">About Us</a></li>
+			</ul>
+		</div>
+		<br class="clearfix" />
+	</div>
+
+<div id="footer">
+	Bizzlers.com
+</div>
+</div>
+</body>
+</html>
